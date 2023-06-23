@@ -7,5 +7,21 @@
 
 import Foundation
 
-print("Hello, World!")
+
+// constante
+let name = "Paulo"
+
+//modificável
+var age = 45
+
+
+//Explicitacao de valores
+var agew:Double = 45
+
+//Isso causaria um erro de comilacao por causa da tipagem forte
+//var greeting = name + age
+
+
+//O correto seria
+var greeting2 = name + String(age)
 
