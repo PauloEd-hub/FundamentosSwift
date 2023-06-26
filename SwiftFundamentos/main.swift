@@ -25,3 +25,23 @@ var agew:Double = 45
 //O correto seria
 var greeting2 = name + String(age)
 
+
+//OPERADORES
+
+//Binary - Afeta dois elementos
+var a = false
+
+//Unary Afeta um elemnto
+a = !a
+
+//Ternary - Afeta tres elementos
+var b = a ? 4 : 2
+
+
+var grocerieList = [String]()
+var grocerieList2: [String] = []
+var grocerieList3 = ["Pão", "Queijo", "Ovos"]
+
+
+
+grocerieList3.append("ok")
